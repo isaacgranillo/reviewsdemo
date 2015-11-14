@@ -47,12 +47,14 @@ end
 
 gem 'hirb'
 
-gem 'rails_12factor', group: :production
-gem 'pg', group: :production
+group :production do
+	gem 'rails_12factor', group: :production
+	gem 'pg', group: :production
+	gem 'fog'
+end
 
 gem 'carrierwave'
 
-gem 'fog'
 gem 'figaro'
 
 
