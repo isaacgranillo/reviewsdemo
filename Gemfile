@@ -50,12 +50,15 @@ gem 'hirb'
 group :production do
 	gem 'rails_12factor', group: :production
 	gem 'pg', group: :production
-	gem 'fog'
 end
 
+
 gem 'carrierwave'
+gem "mini_magick"
+gem 'fog'
 
 gem 'figaro'
+
 
 
 
