@@ -1,6 +1,8 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Listing Restaurants</h1>
+<div class="jumbotron">
+  <h2>Find reviews on local restaurants!</h2>
+  <h3>Explore popular diners, eateries and bars in your community.<br>
+    Leave reviews and ratings for your fellow neighbors.</h3>
+</div>
 
 <table class="table table-hover table-condensed">
   <thead>
@@ -30,4 +32,8 @@
 
 <br>
 
-<%= link_to 'New Restaurant', new_restaurant_path, class: "btn btn-link" %>
+<%= link_to 'New Restaurant', new_restaurant_path, class: "btn btn-link", id: "new_button" %>
+
+  <%= image_tag "https://s3.amazonaws.com/reviewsdemo/seattle5.png", class: "seattle_pic" %>
+
+

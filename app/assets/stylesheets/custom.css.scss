@@ -1,0 +1,42 @@
+.jumbotron {
+	background-color: #cce0ff;
+	border: 2px solid #3333ff;
+}
+
+.jumbotron h2{
+	color: #0000b3;
+	font-weight: bold;
+}
+
+.navbar-default .container-fluid{
+	background-color: #000066; 
+}
+
+.navbar-default .container-fluid .navbar-nav li a{
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.navbar-default .container-fluid .navbar-brand{
+	color: green;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-shadow: 1px 1px white;
+}
+
+.container-fluid{
+	padding: 10px 120px;
+}
+
+.seattle_pic{
+	margin-top: 60px;
+	margin-bottom: 75px;
+	
+}
+
+#new_button{
+	display: inline-block;
+    vertical-align: top;
+}
