@@ -45,8 +45,6 @@ group :development do
   gem 'spring'
 end
 
-gem 'hirb'
-
 group :production do
 	gem 'rails_12factor', group: :production
 	gem 'pg', group: :production
@@ -60,6 +58,7 @@ gem 'fog'
 gem 'figaro'
 gem 'devise'
 gem 'hirb'
+gem 'searchkick'
 
 
 
